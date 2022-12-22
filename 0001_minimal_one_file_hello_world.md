@@ -9,7 +9,7 @@ note: not using "cargo"
 ```
 $ tree
 ```
-#### Output
+## Output
 ```
 [username@system projects]$ tree
 .
@@ -19,11 +19,11 @@ $ tree
 
 ```
 
-#### File name: hello.rs
+## File name: hello.rs
 ```
 $ nano hello.rs
 ```
-#### File contents
+## File contents
 ```
 fn main(){
     println!("Hello, world!");
@@ -35,7 +35,7 @@ fn main(){
 [username@system projects]$ rustc hello.rs
 
 ```
-#### Output
+## Output
 ```
 Hello, world!
 ```
