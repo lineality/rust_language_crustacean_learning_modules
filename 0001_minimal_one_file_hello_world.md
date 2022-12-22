@@ -9,7 +9,7 @@ note: not using "cargo"
 ```
 $ tree
 ```
-## Output
+#### Output
 ```
 [username@system projects]$ tree
 .
@@ -35,7 +35,7 @@ fn main(){
 [username@system projects]$ rustc hello.rs
 
 ```
-## Output
+#### Output
 ```
 Hello, world!
 ```
