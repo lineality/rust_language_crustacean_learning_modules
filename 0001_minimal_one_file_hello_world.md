@@ -25,3 +25,13 @@ fn main(){
     println!("Hello, world!");
 }
 ```
+
+## compile
+```
+[username@system projects]$ rustc hello.rs
+
+```
+#### Output
+```
+Hello, world!
+```
