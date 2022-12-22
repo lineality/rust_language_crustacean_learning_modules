@@ -1,6 +1,10 @@
 #### 0001
 # Rust Language Learning Module: One File Minimal Hello World
 
+## Goal Statement
+compile and run a rust program, using a minimal one-file method
+note: not using "cargo"
+
 ## File Tree
 ```
 $ tree
