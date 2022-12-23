@@ -87,10 +87,6 @@ running 1 test
 test program_runs ... ok
 
 test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
-
-
-
-
 ```
 
 ## Bonus: Run $ tree again, after testing
