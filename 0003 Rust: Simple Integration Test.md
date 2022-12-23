@@ -22,7 +22,7 @@ $ mkdir tests
 ```
 
 ## Make 'cli.rs' file in 'tests' directory
-This is your test-file, the file that contains the tests that you write to test your program.
+This is a test-file, a file that contains tests that you write to test your program.
 ```
 $ nano tests/cli.rs
 ```
