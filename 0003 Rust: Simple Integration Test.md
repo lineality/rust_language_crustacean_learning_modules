@@ -27,7 +27,7 @@ This is a test-file, a file that contains tests that you write to test your prog
 $ nano tests/cli.rs
 ```
 
-#### Text of cli.rs file
+#### text of cli.rs file
 ```
 #[test]
 fn program_runs() {
@@ -40,7 +40,7 @@ Look at the files and file-structure
 ```
 $ tree
 ```
-#### Output (before compiling & running program)
+#### Output (before compiling, running, or testing the program)
 ```
 [username@system simple_integration_test]$ tree
 .
