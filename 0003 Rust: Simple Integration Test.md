@@ -89,7 +89,7 @@ test program_runs ... ok
 test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
 ```
 
-## Bonus: run '$ tree' again, after running the test
+## Bonus 1: run '$ tree' again, after running the test
 #### Note: The 'target' directory will contain build files.
 example output:
 ```
@@ -160,6 +160,48 @@ example output:
 15 directories, 46 files
 ```
 
+## Bonus 2: See a test fail
+Change the cli.rs code, and run 'cargo test' again.
+```
+#[test]
+fn program_runs() {
+    assert!(false);
+}
+```
+#### run
+```
+cargo test
+```
+#### example ouput
+```
+Compiling simple_integration_test v0.1.0 (/home/crust/code/rust/simple_integration_test)
+    Finished test [unoptimized + debuginfo] target(s) in 0.68s
+     Running unittests src/main.rs (target/debug/deps/simple_integration_test-43edcc9ade888332)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/cli.rs (target/debug/deps/cli-7593bc5d9c6220af)
+
+running 1 test
+test program_runs ... FAILED
+
+failures:
+
+---- program_runs stdout ----
+thread 'program_runs' panicked at 'assertion failed: false', tests/cli.rs:3:5
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+
+failures:
+    program_runs
+
+test result: FAILED. 0 passed; 1 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+error: test failed, to rerun pass `--test cli`
+```
+
 ## Notes
 - "Integration Testing" / "Outside-in testing" -> tests that run your program
 - "Unit Testing" / "Inside-out Testing" -> test functions inside of your program
@@ -171,3 +213,5 @@ example output:
 - a command with a bang/exclamation-point after it ("!") is called a "macro" in rust
 - Tests: you can use "assert!" to test if a result is what it is expected to be. 
 - Tests: you can use "assert_eq!" to test if a value is what it is expected to be. 
+- One-Test, One-Fail: Each test function is considered one test. Each test function can contain however many 'calls' of "assert!" or "assert_eq!" (or other test-calls). If one single call falls, then the whole test (the whole function, the whole set of many calls) is considered a failed test. 
+
