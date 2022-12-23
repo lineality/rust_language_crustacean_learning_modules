@@ -62,4 +62,13 @@ Hello, world!
 - executable file is in directory named -> debug
 - name of executable file is set in -> Cargo.toml
 - source code file is in directory named -> src
+- for abbreviated output:
+```
+$ cargo run -q
+```
+or
+```
+
+$ cargo run --quiet
+```
 
