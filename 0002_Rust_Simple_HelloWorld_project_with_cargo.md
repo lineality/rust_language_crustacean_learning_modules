@@ -29,7 +29,8 @@ $ tree
         └── main.rs
 ```
 
-## File name: main.rs
+## Examine source code file
+File name: main.rs
 ```
 $ nano src/main.rs 
 ```
