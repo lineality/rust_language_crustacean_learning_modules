@@ -1,10 +1,10 @@
- # 0003 Rust: Simple Integration Test
+# 0003 Rust: Simple Integration Test
 ### Rust Language Learning Module
 
 ## Goals
-1. add an 'integration test' to a cargo project (a test that runs your program as a user might).
-2. see files and folders created by cargo after running/testing your program
-3. note types of tests: unit tests vs. integrations tests
+1. Add an 'integration test' to a cargo project (a test that runs your program as a user might).
+2. See files and folders created by cargo after running/testing your program.
+3. Note types of tests: unit tests vs. integrations tests.
 
 ## Create Project with cargo
 ```
