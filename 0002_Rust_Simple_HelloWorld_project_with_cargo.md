@@ -41,11 +41,12 @@ fn main(){
 }
 ```
 
-## compile
+## Compile
+Compile source code into an executable file.
 ```
 [username@system projects]$ cargo run
-
 ```
+
 #### Output
 ```
 [username@system projects]$ cargo run
@@ -56,7 +57,7 @@ Hello, world!
 ```
 
 
-## Notes:
+## Notes
 - executable file is in directory named -> debug
 - name of executable file is set in -> Cargo.toml
 - source code file is in directory named -> src
