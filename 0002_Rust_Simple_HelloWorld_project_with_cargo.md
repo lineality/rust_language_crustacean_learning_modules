@@ -5,6 +5,16 @@
 1. Create a project using cargo
 2. Compile and run a rust program, using "cargo"
 
+## Use Cargo: Create Project
+```
+$ cargo new hello
+```
+
+## Change working directory: Go into new 'hello' [project] folder
+```
+$ cd hello
+```
+
 ## File Tree
 ```
 $ tree
