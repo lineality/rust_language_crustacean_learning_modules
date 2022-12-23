@@ -70,4 +70,8 @@ or
 ```
 $ cargo run --quiet
 ```
+- Get help with a command:
+```
+$ cargo help NAME_OF_COMMAND
+```
 
