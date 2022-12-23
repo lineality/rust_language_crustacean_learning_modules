@@ -3,7 +3,7 @@
 
 ## Goal Statement
 1. Create a project using cargo
-2. compile and run a rust program, using "cargo"
+2. Compile and run a rust program, using "cargo"
 
 ## File Tree
 ```
