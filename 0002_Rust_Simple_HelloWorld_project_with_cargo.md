@@ -16,7 +16,7 @@ $ cd hello
 ```
 
 ## File Tree
-Look at the files and file-structure of files and folders created by cargo:
+Look at the files and file-structure of files and folders created by cargo.
 ```
 $ tree
 ```
