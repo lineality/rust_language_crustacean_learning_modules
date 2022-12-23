@@ -1,5 +1,5 @@
-#### 0001
-# Rust Language Learning Module: One File Minimal Hello World
+# 0001 Rust: One-File Minimal "Hello World"
+### Rust Language Learning Module
 
 ## Goal Statement
 compile and run a rust program, using a minimal one-file method
@@ -39,3 +39,5 @@ fn main(){
 ```
 Hello, world!
 ```
+
+
