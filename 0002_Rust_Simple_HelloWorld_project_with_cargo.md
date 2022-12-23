@@ -1,7 +1,7 @@
 # 0002 Rust: Simple "Hello World" project with cargo
 ### Rust Language Learning Module
 
-## Goal Statement
+## Goals
 1. Create a project using cargo
 2. Compile and run a rust program, using "cargo"
 
