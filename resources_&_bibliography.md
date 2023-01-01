@@ -1,5 +1,5 @@
 # Books
-#### Command-Line Rust: Project Based Primer
+### Command-Line Rust: Project Based Primer
 ```
 by Ken Youens-Clark
 Released January 2022
@@ -9,7 +9,7 @@ ISBN: 9781098109431
 - https://www.oreilly.com/library/view/command-line-rust/9781098109424/
 
 
-#### Programming Rust, 2nd Edition: Fast, Safe Systems Development
+### Programming Rust, 2nd Edition: Fast, Safe Systems Development
 ```
 by Jim Blandy, Jason Orendorff, Leonora F. S. Tindall
 Released June 2021
