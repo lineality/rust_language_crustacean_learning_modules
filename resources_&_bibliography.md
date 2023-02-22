@@ -17,3 +17,6 @@ Publisher(s): O'Reilly Media, Inc.
 ISBN: 9781492052593
 ```
 - https://www.oreilly.com/library/view/programming-rust-2nd/9781492052586/
+
+
+(Rust Atomics book?)
